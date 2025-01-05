@@ -54,7 +54,7 @@ public class ConsoleInterface {
                 case 6 -> viewAllData();
                 case 7 -> {
                     System.out.println("Exiting... Goodbye!");
-                    return;
+                    System.exit(0);
                 }
                 default -> System.out.println("Invalid choice. Please try again.");
             }
